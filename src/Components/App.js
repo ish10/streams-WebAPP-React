@@ -16,7 +16,7 @@ return(<div className="ui container">
           <Route path="/" exact component={StreamList} />
           <Route path="/streams/new" exact component={StreamCreate} />
           <Route path="/streams/edit/:id" exact component={StreamEdit} />
-          <Route path="/Streams/delete?:id" exact component={StreamDelete} />
+          <Route path="/Streams/delete/:id" exact component={StreamDelete} />
           <Route path="/streams/show/:id" exact component={StreamShow} />
           </Switch>
         </div>
